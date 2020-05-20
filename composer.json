@@ -1,0 +1,21 @@
+{
+  "authors": [
+    {
+      "name": "lnext(Skorilkin Aleksej)",
+      "email": "own@lnext.space"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Controllers\\": "application/controllers/",
+      "Models\\": "application/models/",
+      "Views\\": "application/views/",
+      "Config\\": "application/config/",
+      "Core\\": "application/core/"
+    }
+  },
+  "name": "lnext/mvc.ua",
+  "require": {
+    "ext-pdo": "*"
+  }
+}
